@@ -32,7 +32,7 @@ Remember to change the dataset path to your own path.
 ## Train
 Train a model by
 ```bash
-python train.py --gpu_ids 0 --name model1 --train_all --batchsize 32  --data_dir your_data_path --lambda 0.2
+python train.py --gpu_ids 0 --name model1 --train_all --batchsize 32  --data_dir your_data_path --weight 0.2
 ```
 `--gpu_ids` which gpu to run.
 
@@ -48,7 +48,7 @@ python train.py --gpu_ids 0 --name model1 --train_all --batchsize 32  --data_dir
 
 `--erasing_p` random erasing probability.
 
-`--lambda` lambda for two traing loss weighting.
+`--weight` lambda for two traing loss weighting.
 
 Train a model with random erasing by
 ```bash
