@@ -91,7 +91,7 @@ Our codes are mainly based on this [repository](https://github.com/layumi/Person
 If you use this code, please kindly cite it in your paper
 
 ```
-@article{guangcong2019RDL,
+@article{guangcong2019RLD,
   title={Discovering Underlying Person Structure Pattern with Relative Local Distance for Person Re-identification},
   author={Wang, Guangcong and Lai, Jianhuang and Xie, Zhenyu and Xie, Xiaohua},
   journal={arXiv preprint arXiv:1901.10100},
