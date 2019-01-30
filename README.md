@@ -48,11 +48,11 @@ python train.py --gpu_ids 0 --name model1 --train_all --batchsize 32  --data_dir
 
 `--erasing_p` random erasing probability.
 
-`--weight` lambda for two traing loss weighting.
+`--weight` for two training loss weighting.
 
 Train a model with random erasing by
 ```bash
-python train.py --gpu_ids 0 --name model1 --train_all --batchsize 32  --data_dir your_data_path --lambda 0.2 --erasing_p 0.5
+python train.py --gpu_ids 0 --name model1 --train_all --batchsize 32  --data_dir your_data_path --weight 0.2 --erasing_p 0.5
 ```
 
 ## Test
@@ -87,3 +87,16 @@ The baseline has been well-trained in  [repository](https://github.com/layumi/Pe
 
 ## Citation
 Our codes are mainly based on this [repository](https://github.com/layumi/Person_reID_baseline_pytorch) 
+
+If you use this code, please kindly cite it in your paper
+
+```
+@article{guangcong2019RDL,
+  title={Discovering Underlying Person Structure Pattern with Relative Local Distance for Person Re-identification},
+  author={Wang, Guangcong and Lai, Jianhuang and Xie, Zhenyu and Xie, Xiaohua},
+  journal={arXiv preprint arXiv:1901.10100},
+  year={2019}
+}
+```
+
+ 
